@@ -19,7 +19,7 @@ to be a number larger than what you have.  It is arbitrary, but important to pre
  * ``` TRUNCATE `wp_comments`; ```
  * ``` TRUNCATE `wp_commentmeta`; ```
  * ``` DELETE  FROM wp_terms WHERE wp_terms.term_id!=1; ```
-2. Copy included serendipity.php to /wordpress/wp-admin/import/
+2. Copy included serendipity.php to /wordpress/wp-content/plugins/serendipity-importer
 3. Login to Wordpress Admin Interface
 4. Goto Tools > Import
 5. Click "Serendipity"
