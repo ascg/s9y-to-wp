@@ -142,6 +142,7 @@ class Serendipity_Import extends WP_Importer  {
 		global $wpdb;
 		// General Housekeeping
 		$s9ydb = $this->connect_s9ydb(); 
+		$prefix = get_option('spre');
 		
 		// Get Users
 		
